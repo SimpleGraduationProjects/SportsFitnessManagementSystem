@@ -8,10 +8,10 @@ import java.util.Properties;
 public class SendMail {
     public static boolean sendMail(String email,String name) {
 
-        String from = "yuanmamatouemail@163.com"; 				// 邮件发送人的邮件地址
+        String from = ""; 				// 邮件发送人的邮件地址
         String to = email; 										// 邮件接收人的邮件地址
-        final String username = "yuanmamatouemail@163.com";  	//发件人的邮件帐户
-        final String password = "yuanmamatou1234";   					//发件人的邮件密码
+        final String username = "";  	//发件人的邮件帐户
+        final String password = "";   					//发件人的邮件密码
         String emailMsg = "成功，请"+name+"使用'123456789'登录！";
 
         //定义Properties对象,设置环境信息
